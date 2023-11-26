@@ -1,0 +1,22 @@
+body {
+    background: repeating-linear-gradient(45deg, #769656 1080px, #eeeed2 1920px);
+    background-size: cover;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+body {
+    font-size: 40px;
+}
+
+#container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+}

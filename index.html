@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Chess.com STonKs</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <input id ="Username" type = "text" placeholder = "USERNAME">
+        <button type = "button" onclick="searchChess()">Generate Stats</button>
+        <h1>Chess.com Player Stats</h1>
+        <h2 id="heading2">See Your Stats!</h2>
+        <!-- <img id = "image" src = "https://media.licdn.com/dms/image/C4E03AQF__isD_Zlfpg/profile-displayphoto-shrink_800_800/0/1648633291697?e=2147483647&v=beta&t=-trD9FJE-RsCGEoa6VTLhupw61JtAdADXwFbAHHAgq8"></img> -->
+
+        <div id="container">
+            <div>
+                <h3 id="heightText">BULLET:</h3>
+                <ul id="bulletStats">
+                    <li>Rating: 1000</li>
+                    <li id = "BulletWins">Wins: 10</li>
+                    <li id = "BulletLosses">Losses: 20</li>
+                    <li id = "BulletDraws">Draws: 10</li>
+                    <li id = "BulletWinPercentage">Win percentage: 25%</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 id="heightText">Blitz:</h3>
+                <ul id="BlitzStats">
+                    <li>Rating: 1000</li>
+                    <li id = "BlitWins">Wins: 10</li>
+                    <li id = "BlitzLosses">Losses: 20</li>
+                    <li id = "BlitzDraws">Draws: 10</li>
+                    <li id = "BlitzWinPercentage">Win percentage: 25%</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 id="heightText">Rapid:</h3>
+                <ul id="RapidStats">
+                    <li>Rating: 1000</li>
+                    <li id = "RapidWins">Wins: 10</li>
+                    <li id = "RapidLosses">Losses: 20</li>
+                    <li id = "RapidDraws">Draws: 10</li>
+                    <li id = "RapidWinPercentage">Win percentage: 25%</li>
+                </ul>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
